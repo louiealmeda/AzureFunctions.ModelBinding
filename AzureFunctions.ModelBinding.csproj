@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <PackOnBuild>true</PackOnBuild>
+    <Authors>Louie Almeda</Authors>
+    <Description>ModelBinder for Azure Function</Description>
+    <NeutralLanguage>en</NeutralLanguage>
+    <Owners>Louie Almeda</Owners>
+    <Summary>ModelBinder for Azure Function</Summary>
+    <Title>AzureFunction Model Binding</Title>
+    <PackageLicense>https://opensource.org/licenses/MIT</PackageLicense>
+    <PackageVersion>1.0.0</PackageVersion>
+    <PackageProjectUrl>https://github.com/louiealmeda/AzureFunctions.ModelBinding</PackageProjectUrl>
+    <ReleaseVersion>1.0.0</ReleaseVersion>
+    <SynchReleaseVersion>false</SynchReleaseVersion>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="MongoDB.Bson" Version="2.10.1" />
+    <PackageReference Include="Microsoft.Azure.Functions.Extensions" Version="1.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.1.0" />
+    <PackageReference Include="Newtonsoft.Json.Schema" Version="2.0.13" />
+  </ItemGroup>
+
+</Project>
